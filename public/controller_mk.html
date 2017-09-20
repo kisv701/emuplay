@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--This html-file is sent to anyone who wants a -->
+    <title>EmuPlay</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/controller_mk.css">
+    <script src="javascripts/socket.io.js"></script>
+    <script>
+        var socket = io();
+    </script>
+
+</head>
+<body>
+    <div id="overlay" onclick="remove_overlay()"> <h1>Make sure you are in landscape mode. <br>
+        Click to activate fullscreen.</h1>
+
+    </div>
+    <canvas id="canvas"></canvas>
+    <input type="button" class="btn" id="btnL" value="L">
+    <input type="button" class="btn" id="btnX" value="X">
+    <input type="button" class="btn" id="btnA" value="A">
+    <input type="button" class="btn" id="btnB" value="B">
+    <input type="button" class="btn" id="btnZ" value="Z">
+    <input type="button" id="start" value="Start">
+    <div id="player_number"></div>
+
+    <script src="javascripts/controller_mk.js"></script>
+
+</body>
+</html>

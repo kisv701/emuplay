@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #F2EEB3;
+}
+
+.btn{
+    position: fixed;
+    display: block;
+    border-radius: 50%;
+    border: 0;
+    background-color: #BFAF80;
+    color: #59323C;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#btnA {
+    width:16.2%;
+    height: 28.2%;
+    top: 35.9%;
+    left: 66.9%;
+}
+
+#btnB {
+    width: 13.5%;
+    height: 24%;
+    top: 63%;
+    left: 55.75%;
+}
+#btnL {
+    width: 13.5%;
+    height: 24%;
+    top: 13%;
+    left: 55.75%;
+}
+#btnX {
+    width: 13.5%;
+    height: 24%;
+    top: 13%;
+    left: 80.75%;
+}
+#btnZ {
+    width: 13.5%;
+    height: 24%;
+    top: 63%;
+    left: 80.75%;
+}
+
+#start {
+    position: fixed;
+    display: block;
+    top: 48%;
+    left: 51%;
+    border: 0;
+    background-color: #BFAF80;
+    color: #59323C;
+    font-size: x-large;
+    font-weight: bold;
+}
+#player_number {
+    position: fixed;
+    display: block;
+    top: 1%;
+    left: 51%;
+    border: 0;
+    color: #59323C;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #000000;
+    background-color: rgba(0,0,0,0.8);
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200%;
+}
